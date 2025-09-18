@@ -360,4 +360,7 @@ supervisor*.log
 
 # Application specific ignores
 .emergent/
-automation_output/
+automation_output/-e 
+# Environment files
+*.env
+*.env.*
